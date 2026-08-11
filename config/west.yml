@@ -12,6 +12,6 @@ manifest:
           import: app/west.yml
         - name: nice-view-gem #modded nice!view display
           remote: m165437 #modded nice!view display
-          revision: v1.0 #modded nice!view display
+          revision: 0300cb10a4db52ff75a6ce2ff9c223c72b83b381 # <-- Fixed commit hash before LVGL v9 changes
     self:
         path: config
