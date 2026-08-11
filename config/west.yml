@@ -13,5 +13,6 @@ manifest:
         - name: nice-view-gem #modded nice!view display
           remote: m165437
           revision: v0.3
+          import: true
     self:
         path: config
