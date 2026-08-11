@@ -12,6 +12,6 @@ manifest:
           import: app/west.yml
         - name: nice-view-gem #modded nice!view display
           remote: m165437
-          revision: v1.X # <-- Compatible branch for ZMK v0.3 / LVGL v8
+          revision: v0.3
     self:
         path: config
