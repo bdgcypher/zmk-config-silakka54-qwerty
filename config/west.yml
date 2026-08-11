@@ -4,14 +4,14 @@ manifest:
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
-        - name: m165437 #modded nice!view display
-          url-base: https://github.com/M165437
+        - name: mjoodev
+          url-base: https://github.com/Mloo-dev
     projects:
         - name: zmk
           remote: zmkfirmware
           import: app/west.yml
-        - name: nice-view-gem #modded nice!view display
-          remote: m165437 #modded nice!view display
-          revision: 0300cb10a4db52ff75a6ce2ff9c223c72b83b381 # <-- Fixed commit hash before LVGL v9 changes
+        - name: nice-view-gem
+          remote: mjoodev
+          revision: v1.0
     self:
         path: config
