@@ -1,6 +1,6 @@
 manifest:
     defaults:
-        revision: v0.3
+        revision: main
     remotes:
         - name: zmkfirmware
           url-base: https://github.com/zmkfirmware
@@ -12,7 +12,6 @@ manifest:
           import: app/west.yml
         - name: nice-view-gem #modded nice!view display
           remote: m165437
-          revision: v0.3
-          import: true
+          revision: main
     self:
         path: config
